@@ -1,0 +1,155 @@
+
+.container {
+    width: 1280px;
+}
+.logo-text{
+    Width :334px;
+    Height:79px;
+    margin-left: 98px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 80px;
+line-height: 94px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+color:rgb(51, 142, 245) ;
+
+
+
+}
+.color-text{
+    color: #000000;
+}
+.top-menu-size{
+    Width: 1280px;
+    Height:72px;
+     Top:117px;
+     background-color:#35444F;
+     border: 1px solid #ffff ;
+     margin-left: 98px;
+     margin-top: -35px;
+    
+}
+.top-menu-fon{
+    list-style-type: none;
+    Width: 1280px;
+    Height:72px;
+    Top:117px;
+     margin-left: 98px;
+     margin-top: -60px;
+     
+     
+  
+     
+}
+.top-menu-list{
+    Width: 280px;
+    Height:72px;
+    Top:117px;
+    display: inline-block;
+    margin-top:80px;
+    text-align:center;
+   
+    
+    
+}
+.top-menu-link{
+    text-decoration: none;
+    font-size: 24px;
+    color: #ffff;
+    border: 1px solid  #ffff;
+    padding: 10px;
+   
+    
+}
+.top-menu-link:hover{
+    background:#222F3A;
+    text-decoration: underline;
+}
+
+.left-menu-size{
+    width: 344px;
+    height: 399px;
+    border: 1px solid black;
+    margin-left:98px;
+    margin-top: 51px;
+}
+.left-menu-fon{
+    padding-left:44px;
+    font-size: 27px;
+    line-height: 27px; 
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+.side-menu-link{
+    display: flex;
+    color: #485863;
+    line-height: 75px;
+    text-decoration:none;
+
+}
+.side-menu-link:hover{
+    background-color: #DBDBDB;
+    text-decoration: underline;
+   
+}
+.picture-size{
+    display:flexbox;
+    Width:885px;
+    Height:529px;
+    border:1px solid #000000;
+   margin-left:  496px; 
+   margin-top: -400px;
+
+}
+.picture-fon{
+    margin-left: 297px;
+    margin-top: 75px;
+
+}
+.text-box{
+    width: 855px;
+    height: 230;
+    margin-left: 496px;
+}
+.text{
+    text-align: left;
+}
+.footer-size{
+    width: 1280px;
+    height: 69px;
+    border: 1px solid black;
+    margin-left: 98px;
+    background-color: #63696E;
+    
+    
+
+}
+   
+.footer-list{
+    word-spacing: 15px;
+    
+    
+}
+    
+.footer-list-item{
+    display: inline-block;
+    font-size: 28px;
+    
+    
+    
+
+}
+.color-link{
+    color: #00ffff;
+}
+.link-style{
+    text-decoration: none;
+}
+.color{
+    color: #010101;
+    padding-left: 150px;
+}
