@@ -38,7 +38,7 @@
 {
 	position: absolute;
 	top: 100%;
-	animation: scroll 30s linear 4s infinite;
+	animation: scroll 90s linear 0s infinite ;
 }
 @keyframes scroll {
 	0% { top: 100%; }
