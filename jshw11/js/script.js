@@ -1,16 +1,17 @@
 
-const btns = document.getElementsByClassName('btn');
- document.onkeypress = function(event){  
- for (var i = 0; i < btns.length; i++) {
-     if (event.keyCode == 13){
-         btns[i].classList.add(`blue`)
-     }  else  {
-         btns[i].classList.remove(`blue`)
-        
-     }
- }
- }
+const btns = [...document.getElementsByClassName('btn')];
+console.log(btns);
 
+ document.onkeypress = function(event){  
+  btns.forEach(element => {
+      if(element.classList.contains(`blue`)){
+          element.classList.remove(`blue`)
+      }
+      if(element.innerText.toLowerCase()=== event.key.toLowerCase())
+      element.classList.add(`blue`)
+      console.log(event);
+ });
+}
 
 
 
