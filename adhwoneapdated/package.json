@@ -1,0 +1,31 @@
+{
+  "name": "project-x",
+  "version": "1.0.0",
+  "description": "Artem musiienko PE1",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/togethera350/my-homework-in-dan-it.git"
+  },
+  "keywords": [
+    "Name",
+    "Group"
+  ],
+  "author": "Artem Musiienko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/togethera350/my-homework-in-dan-it/issues"
+  },
+  "homepage": "https://gitlab.com/togethera350/my-homework-in-dan-it#readme",
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "bootstrap": "^5.0.2",
+    "browser-sync": "^2.27.1",
+    "eslint": "^7.29.0"
+  }
+}
